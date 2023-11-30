@@ -1,6 +1,6 @@
-# Welcome to Remix!
+# Welcome to Madison Pickup (powered by Remix)!
 
-- [Remix Docs](https://remix.run/docs)
+This is the source code for (insert url here).
 
 ## Development
 
