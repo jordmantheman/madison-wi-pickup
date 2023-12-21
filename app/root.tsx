@@ -1,4 +1,5 @@
 import type { LinksFunction } from '@remix-run/cloudflare'
+import { ColorSchemeScript, MantineProvider } from '@mantine/core'
 import { cssBundleHref } from '@remix-run/css-bundle'
 import {
   Links,
@@ -8,7 +9,6 @@ import {
   Scripts,
   ScrollRestoration,
 } from '@remix-run/react'
-import { ColorSchemeScript, MantineProvider } from '@mantine/core'
 
 import '@mantine/core/styles.css'
 import './styles/normalize.css'

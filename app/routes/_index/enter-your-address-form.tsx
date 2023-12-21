@@ -1,4 +1,3 @@
-import { Form } from '@remix-run/react'
 import type { HTMLFormMethod } from '@remix-run/router'
 import {
   Alert,
@@ -9,6 +8,7 @@ import {
   TextInput,
   Title,
 } from '@mantine/core'
+import { Form } from '@remix-run/react'
 import { IconInfoCircle } from '@tabler/icons-react'
 import { StreetDirection, StreetType } from './enums'
 
