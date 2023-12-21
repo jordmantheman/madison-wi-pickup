@@ -1,5 +1,6 @@
 /** @type {import('@remix-run/dev').AppConfig} */
 export default {
+  postcss: true,
   ignoredRouteFiles: ["**/.*"],
   server: "./server.ts",
   serverConditions: ["workerd", "worker", "browser"],
