@@ -1,5 +1,6 @@
-import type { LinksFunction } from "@remix-run/cloudflare";
-import { cssBundleHref } from "@remix-run/css-bundle";
+import type { LinksFunction } from '@remix-run/cloudflare'
+import { ColorSchemeScript, MantineProvider } from '@mantine/core'
+import { cssBundleHref } from '@remix-run/css-bundle'
 import {
   Links,
   LiveReload,
@@ -7,16 +8,15 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-} from "@remix-run/react";
-import { ColorSchemeScript, MantineProvider } from '@mantine/core';
+} from '@remix-run/react'
 
-import '@mantine/core/styles.css';
-import "./styles/normalize.css"
-import "./styles/root.css"
+import '@mantine/core/styles.css'
+import './styles/normalize.css'
+import './styles/root.css'
 
 export const links: LinksFunction = () => [
-  ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
-];
+  ...(cssBundleHref ? [{ rel: 'stylesheet', href: cssBundleHref }] : []),
+]
 
 export default function App() {
   return (
@@ -37,5 +37,5 @@ export default function App() {
         </MantineProvider>
       </body>
     </html>
-  );
+  )
 }
