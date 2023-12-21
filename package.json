@@ -8,7 +8,8 @@
     "deploy": "wrangler deploy",
     "dev": "remix dev --manual -c \"npm start\"",
     "start": "wrangler dev ./build/index.js",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@cloudflare/kv-asset-handler": "^0.1.3",
@@ -33,6 +34,7 @@
     "postcss": "^8.4.32",
     "postcss-preset-mantine": "^1.12.1",
     "postcss-simple-vars": "^7.0.1",
+    "prettier": "^3.1.1",
     "typescript": "^5.1.6",
     "wrangler": "3.8.0"
   },
