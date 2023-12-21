@@ -2,7 +2,7 @@
  * Street type values shared across the front and backend.
  * For official word <-> abrv mappings, see https://pe.usps.com/text/pub28/28apc_002.htm
  */
-export const enum StreetType {
+export enum StreetType {
     "Alley" = "Aly",
     "Avenue" = "Ave",
     "Boulevard" = "Blvd",
@@ -44,7 +44,7 @@ export const enum StreetType {
   /**
    * Street direction values shared across the front and backend.
    */
-export const enum StreetDirection {
+export enum StreetDirection {
     "North" = "N",
     "South" = "S",
     "East" = "E",
